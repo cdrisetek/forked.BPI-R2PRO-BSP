@@ -5,5 +5,5 @@
       "version": "latest"
     }
   },
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y cpio bc device-tree-compiler libncurses-dev gawk python3 file bison flex lz4 time && sudo ln -sf /usr/bin/python3 /usr/bin/python"
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y expect cpio bc device-tree-compiler libncurses-dev gawk python3 file bison flex lz4 time && sudo ln -sf /usr/bin/python3 /usr/bin/python"
 }
